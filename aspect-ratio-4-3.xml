@@ -29,21 +29,22 @@
          <fontSize>0.05</fontSize>
       </text>
       <textlist name="gamelist">
-         <pos>0.046860356138707 0.24</pos><!-- 50 192 -->
-         <size>0.384254920337395 0.725</size><!-- 410 542.5 -->
+         <pos>0.0232 0.24</pos><!-- 25 192 -->
+         <size>0.4275 0.725</size><!-- 410 542.5 -->
          <lineSpacing>1.585</lineSpacing>
-         <fontSize>0.04</fontSize><!-- 32 -->
+         <fontSize>0.03</fontSize>
       </textlist>
       <image name="gamelist-background" extra="true">
          <size>0.487347703842549 1</size><!-- 520 800 -->
       </image>
    </view>
 
-   <subset name="gamelist-layout" displayName="Gamelist View Style">
+   <subset name="gamelist-layout" displayName="Gamelist Layout">
       <include name="metadata-on" displayName="Metadata On">./gamelist-metadata-on-4-3.xml</include>
       <include name="metadata-on-miximage" displayName="Metadata On (Miximage)">./gamelist-metadata-on-4-3.xml</include>
       <include name="metadata-off" displayName="Metadata Off">./gamelist-metadata-off-4-3.xml</include>
       <include name="metadata-off-zoomed" displayName="Metadata Off (Zoomed)">./gamelist-metadata-off-4-3.xml</include>
+      <include name="dual-image" displayName="Dual Image">./gamelist-dual-image-4-3.xml</include>
    </subset>
 
 </theme>
