@@ -1,0 +1,31 @@
+<theme>
+    <formatVersion>7</formatVersion>
+    <include>./../theme.xml</include>
+
+    <view name="detailed">
+
+        <textlist name="gamelist">
+            <pos>0.0232 0.24</pos><!-- 25 192 -->
+            <size>0.4275 0.3</size><!-- 410 542.5 -->
+            <lineSpacing>1.585</lineSpacing>
+            <fontSize>0.03</fontSize>
+        </textlist>
+        <image name="gamelist-background" extra="true">
+            <size>0.487347703842549 1</size><!-- 520 800 -->
+        </image>
+
+        <image name="md_thumbnail">
+            <origin>0.5 0.5</origin>
+            <pos>0.225 0.79</pos><!-- 793.5 400 -->
+            <maxSize>0.43 0.40</maxSize><!-- 1112 938 -->
+            <zIndex>7</zIndex>
+        </image>
+        
+        <image name="md_image">
+            <origin>0.5 0.5</origin>
+            <pos>0.745 0.5</pos><!-- 793.5 400 -->
+            <maxSize>0.51 1.01</maxSize><!-- 480 700 -->
+            <zIndex>2</zIndex>
+        </image>
+    </view>
+</theme>
