@@ -1,5 +1,6 @@
 
 #!/bin/bash
 
-ssh root@RG353P mkdir -p /etc/emulationstation/themes/es-theme-art-book-custom && rm -rf /etc/emulationstation/themes/es-theme-art-book-custom/*
-scp -r ./* root@RG353P:/etc/emulationstation/themes/es-theme-art-book-custom/
+HOST=192.168.1.50
+ssh root@$HOST mkdir -p /etc/emulationstation/themes/es-theme-art-book-custom && rm -rf /etc/emulationstation/themes/es-theme-art-book-custom/*
+scp -r ./* root@$HOST:/etc/emulationstation/themes/es-theme-art-book-custom/

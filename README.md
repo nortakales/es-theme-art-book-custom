@@ -108,7 +108,7 @@ Thank you for taking a look at this 😄
 
 ## **Todo List**
 
-[] Update PS, DS, NES, MSDOS, GB artwork
+[x] Update PS, DS, NES, MSDOS, GB artwork
 [x] Smaller font in game list
 [x] Game list images... box up top, screenshot below
 [x] dimmer font for battery clock and wifi
