@@ -13,12 +13,11 @@ Gamelist View Style - Metadata On & Metadata On (Miximage) - 4:3
          <lineSpacing>1.36</lineSpacing>
          <fontSize>0.03</fontSize><!-- 24 -->
       </text>
-      <rating name="md_rating">
+      <text name="md_gametime">
          <pos>0.543580131208997 0.802</pos><!-- 580 652 -->
          <size>0 0.026</size><!-- x 24 -->
-         <filledPath>./_inc/images/utility/star-filled.svg</filledPath>
-         <unfilledPath>./_inc/images/utility/star-empty.svg</unfilledPath>
-      </rating>
+         <fontSize>0.025</fontSize><!-- 20 -->
+      </text>
       <text name="md_genre">
          <pos>0.543580131208997 0.857</pos><!-- 580 686 -->
          <size>0.1875 0.025</size><!-- 120 20 -->
